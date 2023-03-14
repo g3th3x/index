@@ -1,0 +1,16 @@
+:root {
+  --color1: rgb(7, 7, 7);
+  --color2: rgb(33, 37, 41);
+  --color3: rgb(238, 187, 18);
+}
+
+header,
+footer {
+  padding: 150px 0;
+  background: var(--color2);
+}
+
+/* Developer section */
+.developer {
+  background-color: var(--color1);
+}
