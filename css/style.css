@@ -1,13 +1,29 @@
 :root {
-  --color1: rgb(7, 7, 7);
-  --color2: rgb(33, 37, 41);
-  --color3: rgb(238, 187, 18);
+  --color1: rgb(238, 187, 18);
+  --color2: rgb(255, 255, 255);
+  --bg1: rgb(33, 37, 41);
+  --bg2: rgb(7, 7, 7);
+}
+/* Header Section */
+header {
+  padding: 150px 0;
+  background: var(--bg1);
 }
 
-header,
+section {
+  padding: 100px 0;
+  background: var(--bg2);
+}
+
 footer {
   padding: 150px 0;
-  background: var(--color2);
+  background: var(--bg1);
+}
+
+h1,
+h3,
+p {
+  background: var(--color4);
 }
 
 .gh-btn1 {
@@ -18,6 +34,12 @@ footer {
 }
 
 /* Developer section */
-.developer {
-  background-color: var(--color1);
+
+/* Colors */
+.gh-color1 {
+  color: var(--bg1);
+}
+
+.gh-color2 {
+  color: var(--bg2);
 }
