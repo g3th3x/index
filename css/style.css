@@ -21,6 +21,11 @@ header {
   padding: 150px 0;
   background: var(--bg1);
 }
+@media screen and (max-width: 576px) {
+  .developer img {
+    display: none;
+  }
+}
 /* Why */
 .why {
   background: var(--bg1);
