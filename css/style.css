@@ -12,6 +12,11 @@ p {
   color: var(--color2);
 }
 
+a {
+  outline: none;
+  text-decoration: none;
+}
+
 section {
   padding: 100px 0;
   background: var(--bg2);
@@ -27,12 +32,12 @@ header {
     display: none;
   }
 }
-/* Why? Section*/
-.why {
+/* Projects Section*/
+.projects {
   background: var(--bg1);
 }
 
-.why h5 {
+.projects h5 {
   padding: 30px;
   height: 100%;
   background: var(--bg2);
@@ -72,9 +77,9 @@ header {
   background-color: var(--color1);
   margin: 15px auto;
 }
-
+/* Footer Section */
 footer {
-  padding: 150px 0;
+  padding: 50px 0;
   background: var(--bg1);
 }
 
