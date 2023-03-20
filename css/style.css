@@ -21,19 +21,56 @@ header {
   padding: 150px 0;
   background: var(--bg1);
 }
+
 @media screen and (max-width: 576px) {
   .developer img {
     display: none;
   }
 }
-/* Why */
+/* Why? Section*/
 .why {
   background: var(--bg1);
 }
+
 .why h5 {
   padding: 30px;
   height: 100%;
   background: var(--bg2);
+}
+/* Information Section */
+.gh-circle i {
+  font-size: 25px;
+  color: var(--color1);
+}
+
+.gh-circle {
+  margin: 0 auto 15px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid var(--color1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gh-circle:hover {
+  margin: 0 auto 15px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid var(--color1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 50%;
+}
+
+.gh-line {
+  width: 100px;
+  height: 3px;
+  background-color: var(--color1);
+  margin: 15px auto;
 }
 
 footer {
@@ -58,9 +95,9 @@ footer {
 }
 
 .gh-bg1 {
-  color: var(--bg1);
+  background-color: var(--bg1);
 }
 
 .gh-bg2 {
-  color: var(--bg2);
+  background-color: var(--bg2);
 }
