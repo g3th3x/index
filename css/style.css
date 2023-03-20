@@ -4,26 +4,36 @@
   --bg1: rgb(33, 37, 41);
   --bg2: rgb(7, 7, 7);
 }
-/* Header Section */
-header {
-  padding: 150px 0;
-  background: var(--bg1);
+
+h1,
+h3,
+h5,
+p {
+  color: var(--color2);
 }
 
 section {
   padding: 100px 0;
   background: var(--bg2);
 }
+/* Header Section */
+header {
+  padding: 150px 0;
+  background: var(--bg1);
+}
+/* Why */
+.why {
+  background: var(--bg1);
+}
+.why h5 {
+  padding: 30px;
+  height: 100%;
+  background: var(--bg2);
+}
 
 footer {
   padding: 150px 0;
   background: var(--bg1);
-}
-
-h1,
-h3,
-p {
-  background: var(--color4);
 }
 
 .gh-btn1 {
@@ -33,13 +43,19 @@ p {
   padding: 8px 30px;
 }
 
-/* Developer section */
-
 /* Colors */
 .gh-color1 {
-  color: var(--bg1);
+  color: var(--color1);
 }
 
 .gh-color2 {
+  color: var(--color2);
+}
+
+.gh-bg1 {
+  color: var(--bg1);
+}
+
+.gh-bg2 {
   color: var(--bg2);
 }
