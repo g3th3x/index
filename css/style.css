@@ -8,7 +8,8 @@
 h1,
 h3,
 h5,
-p {
+p,
+label {
   color: var(--color2);
 }
 
@@ -33,7 +34,8 @@ header {
   }
 }
 /* Projects Section*/
-.projects {
+.projects,
+.feedback {
   background: var(--bg1);
 }
 
@@ -80,8 +82,9 @@ header {
 /* Footer Section */
 footer {
   padding: 50px 0;
-  background: var(--bg1);
+  background: var(--bg2);
 }
+/* Feedback */
 
 .gh-btn1 {
   display: block;
