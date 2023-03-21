@@ -15,6 +15,8 @@
 
 <body>
 
+    <div class="gh-btn-up gh-btn-up-hide"></div>
+
     <header>
         <div class="container">
             <div class="row text-center">
@@ -167,32 +169,56 @@
                     <h1 class="text-center text-uppercase mb-5">Feedback</h1>
                 </div>
             </div>
-            <form>
+            <form class="needs-validation" novalidate>
                 <div class="row mb-5 gy-3">
                     <div class="col-md-6 col-sm-12">
-                        <label for="input-username" class="form-label">Tell me your name</label>
-                        <input type="text" class="form-control" id="input-username" placeholder="Enter your name"
+                        <label for="inputUsername" class="form-label">Tell me your name</label>
+                        <input type="text" class="form-control" id="inputUsername" placeholder="Enter your name"
                             required>
+                        <div class="invalid-feedback">
+                            Name required.
+                        </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <label for="input-email" class="form-label">Enter your Email address</label>
-                        <input type="email" class="form-control" id="input-email" placeholder="example@domain.com"
+                        <label for="inputEmail" class="form-label">Enter your Email address</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="example@domain.com"
                             required>
+                        <div class="invalid-feedback">
+                            Valid Email required.
+                        </div>
                     </div>
                 </div>
                 <div class="row mb-5">
                     <div class="col-12">
-                        <label for="input-message" class="form-label">Let me know if you have any questions or comments
+                        <label for="inputMessage" class="form-label">Let me know if you have any questions or comments
                             for
                             me</label>
-                        <textarea class="form-control" id="input-message"
-                            placeholder="eg. The reason for my enquiry is..."></textarea>
+                        <textarea class="form-control" id="inputMessage"
+                            placeholder="eg. The reason for my enquiry is..." required></textarea>
+                        <div class="invalid-feedback">
+                            Message required.
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="check" required>
+                            <label class="form-check-label" for="check">
+                                By clicking the button, I accept the terms of the <a href="#" class="link-warning">User
+                                    Agreement</a> and give my consent to the processing of my personal data, in
+                                accordance with the Federal Law of July 27, 2006 No. 152-FZ "On Personal Data".
+                            </label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row text-center">
                     <div class="col-12">
-                        <a href="#submit" class="btn btn-lg btn-warning text-uppercase gh-btn1"
-                            id="submit-button">Submit</a>
+                        <button class="btn btn-lg btn-warning text-uppercase gh-btn1 disabled" type="submit"
+                            id="submitButton">Submit</button>
                     </div>
                 </div>
             </form>
