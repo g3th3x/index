@@ -33,10 +33,10 @@ checkbox.addEventListener("change", () => {
 const btnUp = {
   el: document.querySelector(".gh-btn-up"),
   show() {
-    this.el.classList.remove("gh-btn-up-hide");
+    this.el.classList.add("gh-btn-up-show");
   },
   hide() {
-    this.el.classList.add("gh-btn-up-hide");
+    this.el.classList.remove("gh-btn-up-show");
   },
   addEventListener() {
     window.addEventListener("scroll", () => {
